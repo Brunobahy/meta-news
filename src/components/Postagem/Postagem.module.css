@@ -1,0 +1,153 @@
+.postagem {
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+
+.postagem__cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user {
+    width: 60px;
+}
+
+.userIcon {
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 60px;
+}
+
+.postagem__nome {
+    font-weight: 600;
+}
+
+.postagem__tempo {
+    font-weight: 400;
+    color: gray;
+}
+
+.postagem__texto {
+    width: 95%;
+    margin: 0 auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.imagem {
+    max-width: 480px;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+.postagem__botoes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    justify-content: flex-end;
+}
+
+.botao {
+    color: tomato;
+    transition: all 200ms;
+}
+
+.botao:hover {
+    filter: brightness(0.5);
+    cursor: pointer;
+}
+
+.botao:nth-child(3) {
+    transform: rotate(180deg);
+}
+
+.botaoCurtidas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.botaoCurtidas span {
+    font-size: 15px;
+    position: absolute;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.lista__comentarios {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 500px;
+    box-sizing: border-box;
+}
+
+.comentario {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.comentario__imagem{
+    width: 40px;
+}
+
+.comentario__texto{
+    font-size: 15px;
+}
+
+.comentario__container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.comentario__user{
+    width: 40px;
+}
+
+.container__input{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.input{
+    border: none;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+
+.enviar{
+    border: none;
+    font-size: 20px;
+    background-color: #FFF;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+.enviar:hover{
+    color: rgba(0, 0, 0);
+}

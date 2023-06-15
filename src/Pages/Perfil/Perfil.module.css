@@ -1,0 +1,25 @@
+.pagina{
+    width: 80%;
+    margin: 0 auto;
+}
+.info{
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.foto {
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0 6px tomato;
+}
+
+.nome{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.email{
+    font-size: 20px;
+}

@@ -1,0 +1,77 @@
+@import '../../global.css';
+.cabecalho {
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.logo {
+    font-size: 30px;
+    color: black;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.item {
+    transition: all 400ms ease-in-out; 
+    color: #FFF;
+    border-bottom: 2px solid transparent;
+}
+
+
+.itemAcessado{
+    color: yellow;
+    border-bottom: 2px solid yellow;
+    transition: all 400ms;
+}
+
+.itemAcessado:hover{
+    transform: translate(0px, -5px);
+    border-bottom: 2px solid yellow;
+}
+
+.item:hover{
+    transform: translate(0px, -5px);
+    border-bottom: 2px solid #FFF;
+}
+
+.perfilAcessado{
+    border: 2px solid yellow;
+    border-radius: 50%;
+}
+
+.item:nth-child(3):hover{
+    transform: translate(0px, 0px);
+    border-bottom: 2px solid transparent;
+}
+
+.link {
+    font-size: 40px;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+
+.foto {
+    width: 40px;
+    clip-path: circle(50% at 50%);
+}

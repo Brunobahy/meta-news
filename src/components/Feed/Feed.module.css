@@ -1,0 +1,6 @@
+.feed{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: fit-content;
+}
