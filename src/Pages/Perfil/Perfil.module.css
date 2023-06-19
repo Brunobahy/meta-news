@@ -1,7 +1,13 @@
 .pagina{
-    width: 80%;
-    margin: 0 auto;
+    /* width: 80%;
+    margin: 0 auto; */
 }
+
+.cabecalho{
+    padding: 0 10% 50px;
+}
+
+
 .info{
     margin-top: -50px;
     display: flex;
